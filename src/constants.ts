@@ -11,7 +11,7 @@ export const CONFIG_FILENAME = "pi-subagent-review.json";
 export const REVIEW_PROMPT_PATH = path.join(path.resolve(__dirname, ".."), "review.prompt.md");
 
 export const DEFAULT_CONFIG = {
-	model: "openai-codex/gpt-5.4",
+	model: "openai-codex/gpt-5.5",
 	thinking: "high",
 } as const;
 
